@@ -48,7 +48,7 @@ public class Generacion_kml_gis_postgres {
             //ssh -i "Edgardo.Gatica.pem" -L 3333:dbcontenedor.c54k6thwy5yi.us-east-1.rds.amazonaws.com:3306 ec2-user@35.168.240.65
             //ssh -i "Edgardo.Gatica.pem" -L 5555:db-226.c54k6thwy5yi.us-east-1.rds.amazonaws.com:3306 ec2-user@35.168.240.65 
             String val_elevation="";
-            nombreArchivo="poligono_AGUNSA_RYCV19.kml";
+            nombreArchivo="poligono_AGUNSA_RYCV19_test.kml";
             FileWriter fw ;
             fw = new FileWriter(nombreArchivo);
             PrintWriter salArch;
